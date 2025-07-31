@@ -1,54 +1,36 @@
-# 📧 Spam Mail Classifier Deployment
 
-This project is a **Spam Mail Classifier Web App** built using **Machine Learning (Logistic Regression)**.  
-It predicts whether a given email message is **Spam** or **Not Spam**.
+# 📧 Spam Mail Prediction - Streamlit Deployment
 
-The model is trained using **TF-IDF Vectorization** on a labeled dataset and deployed as an interactive **Streamlit Web Application**.
+Welcome to my **Spam Mail Classifier Web App**! 🚀  
+This project demonstrates how to build and deploy a Machine Learning model that can classify whether an email message is **Spam** or **Not Spam** using **Python, Scikit-learn, and Streamlit**.
 
----
-
-## 🚀 Live Demo
-👉 [Click Here to Try the App](https://spam-mail-prediction-deployment-ekje7fvjyswsh3uttfunx8.streamlit.app/)
+🔗 **Live App:** [Spam Mail Prediction WebApp](https://spam-mail-prediction-deployment-4appyorzyo8esyvvesvwmm.streamlit.app/)  
+🔗 **GitHub Repository:** [Spam-Mail-Prediction-Deployment](https://github.com/DivyaLaxmi-div/Spam-Mail-Prediction-Deployment)
 
 ---
 
-## 📝 Project Overview
-- Developed a Spam Classifier using **TF-IDF Vectorizer** and **Logistic Regression**.
-- Processed a dataset containing labeled emails (Spam & Ham).
-- Transformed text data into numerical vectors using TF-IDF.
-- Trained a model to classify messages accurately.
-- Saved the trained **model** and **vectorizer** using Pickle for deployment.
-- Built a user-friendly **Streamlit Web App** to predict Spam in real-time.
+## 📊 Project Overview
+The goal of this project is to build a **Spam Detection Classifier** that allows users to input an email message and get an instant prediction on whether the message is **Spam** or **Not Spam**.
+
+The application is deployed using **Streamlit** to create an interactive web interface.
 
 ---
 
-## 🛠️ Tech Stack
-- Python
-- Pandas
-- Scikit-learn (TF-IDF Vectorization & Logistic Regression)
-- Streamlit (for deployment)
+## 🛠️ Tech Stack Used
+- **Python** (Model Building)
+- **Pandas & Scikit-learn** (Data Preprocessing & Model Training)
+- **TfidfVectorizer** (Feature Extraction)
+- **Multinomial Naive Bayes** (Classification Algorithm)
+- **Streamlit** (Web App Deployment)
 
 ---
 
-## 📊 Features
-- Enter any email message into the text box.
-- Get an instant prediction: **Spam or Not Spam**.
-- Simple and interactive user interface.
-- Fully deployed and accessible for live testing.
+## 🧠 Key Learnings
+- How to build a text classification model using **TF-IDF and Naive Bayes**.
+- Understanding the end-to-end flow of an ML project: **Data Cleaning → Feature Extraction → Model Training → Deployment**.
+- Handling **imbalanced datasets** and text preprocessing challenges.
+- Deploying a **fully functional Machine Learning project on Streamlit Cloud**.
 
 ---
 
-## 📂 Repository Structure
-```
-📁 Spam-Mail-Classifier-Deployment/
-    ├── app.py                    # Streamlit App Code
-    ├── spam_model.pkl             # Trained Logistic Regression Model
-    ├── tfidf_vectorizer.pkl       # Trained TfidfVectorizer
-    ├── requirements.txt           # Python Dependencies
-    └── README.md                  # Project Documentation (This File)
-```
-
----
-
-## 🤝 Connect with Me
-- LinkedIn: [Divya Laxmi Routhu](https://www.linkedin.com/in/divya-laxmi-routhu/)
+## ⚙️ Project Structure
