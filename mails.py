@@ -20,11 +20,10 @@ if st.button("Predict"):
         # Transform input using vectorizer
         input_data = vectorizer.transform([input_mail])
 
-        # Predict Spam Probability
-        probability = model.predict_proba(input_data)[0][1]  # Probability of Spam
+        # Predict Probability for Class 1 (Spam)
+        prediction = model.predict(input_data)
 
-        # Threshold-based Classification (No Confidence shown)
-        if probability > 0.6:
+        if prediction[0] == 1:
             st.error("🚨 The email is Spam")
         else:
             st.success("✅ The email is Not Spam")
