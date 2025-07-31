@@ -24,6 +24,6 @@ if st.button("Predict"):
         prediction = model.predict(input_data)
 
         if prediction[0] == 1:
-            st.error("🚨 The email is Spam")
-        else:
             st.success("✅ The email is Not Spam")
+        else:
+            st.error(" 🚨The email is Spam")
